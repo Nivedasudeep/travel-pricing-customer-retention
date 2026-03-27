@@ -1,104 +1,105 @@
-# Travel-pricing-customer-retention
-Exploratory Data Analysis and customer segmentation on hotel booking data to uncover cancellation patterns, demand trends, and support dynamic pricing strategies.
+# 🏨 Travel, Tourism & Hospitality Analysis
 
-# Travel, Tourism & Hospitality: Customer Retention & Dynamic Pricing Analysis
-
-##  Executive Summary
-In the highly competitive travel and hospitality industry, revenue loss often occurs due to high cancellation rates and ineffective pricing strategies. This project analyzes historical hotel booking data to identify key drivers of customer cancellations and uncover seasonal demand patterns. The insights derived aim to support dynamic pricing strategies and targeted customer retention campaigns.
-
-
-##  Project Objectives
-- Analyze customer booking behavior and cancellation trends
-- Identify factors influencing high cancellation probability
-- Explore seasonal demand and pricing patterns
-- Segment customers based on booking behavior
-- Provide data-driven insights for revenue optimization (RevPAR)
-
-
-##  Dataset Description
-The dataset contains hotel booking records with features such as:
-- Lead Time (days before arrival)
-- Average Daily Rate (ADR)
-- Booking status (Canceled / Not Canceled)
-- Customer type (Corporate, Leisure, etc.)
-- Number of weekend and weekday stays
-- Deposit type and market segment
-
-
-##  Technology Stack
-- **Programming Language:** Python  
-- **Libraries:** Pandas, NumPy  
-- **Visualization:** Matplotlib, Seaborn  
-- **Machine Learning:** Scikit-learn  
-- **Environment:** Jupyter Notebook  
-
-
+### Customer Retention & Dynamic Pricing Analysis
 
 ---
 
-## 🔍 Methodology
+## 📌 Project Overview
 
-### 1. Data Cleaning & Preprocessing
-- Handled missing values in key columns (agent, company)
-- Treated outliers in Average Daily Rate (ADR)
-- Created new feature:
-  - `total_stay = weekend nights + weekday nights`
+This project focuses on analyzing hotel booking data to understand customer behavior, identify key factors influencing booking cancellations, and explore seasonal demand patterns. The goal is to provide insights that help hotels reduce cancellations and optimize pricing strategies.
 
 ---
 
-### 2. Exploratory Data Analysis (EDA)
-- Univariate and bivariate analysis
-- Correlation matrix to identify key influencing factors
-- Cancellation trends across different features
-- Distribution analysis of ADR
+## 🎯 Business Objective
+
+* Reduce booking cancellations
+* Optimize Revenue Per Available Room (RevPAR)
+* Understand customer segments and booking behavior
+* Support dynamic pricing decisions
 
 ---
 
-### 3. Customer Segmentation
-Customers were grouped based on:
-- Booking behavior (early vs last-minute)
-- Purpose (corporate vs leisure)
-- Stay duration patterns
+## 🛠️ Tech Stack
+
+* **Python** (Pandas, NumPy)
+* **Visualization**: Matplotlib, Seaborn
+* **Environment**: Jupyter Notebook / VS Code
 
 ---
 
-### 4. Seasonal Demand & Pricing Analysis
-- Monthly booking trends
-- Demand fluctuations over time
-- ADR variation across seasons
+## 📊 Dataset
+
+* Hotel booking dataset containing customer details, booking information, pricing, and cancellation status
 
 ---
 
-##  Key Insights
-- Longer lead times are strongly associated with higher cancellation rates  
-- Bookings without deposits have a significantly higher probability of cancellation  
-- Peak seasons show increased demand and higher ADR  
-- Corporate customers tend to have lower cancellation rates compared to leisure travelers  
+## 🔹 Week 1: Data Cleaning & Feature Engineering
+
+### ✔ Key Steps
+
+* Standardized column names
+* Removed fully empty rows
+* Handled missing values using imputation
+* Treated outliers in **Average Daily Rate (ADR)**
+* Created new features:
+
+  * `total_nights`
+  * `total_guests`
+  * `is_family`
+
+### ✔ Outcome
+
+* Clean and structured dataset
+* No missing values
+* Ready for analysis
 
 ---
 
-##  Business Impact
-- Enables better forecasting of cancellations  
-- Supports dynamic pricing strategies based on demand trends  
-- Helps marketing teams target high-risk customers with retention campaigns  
-- Improves revenue optimization through data-driven decisions  
+## 🔹 Week 2: Exploratory Data Analysis (EDA)
+
+### ✔ Key Analysis
+
+* Cancellation distribution
+* Lead time vs cancellation
+* Pricing (ADR) impact
+* Deposit type vs cancellation
+* Monthly booking trends (seasonality)
+* Correlation analysis
+
+### ✔ Key Insights
+
+* Higher lead time → higher cancellations
+* Bookings without deposits → more cancellations
+* Pricing influences customer decisions
+* Strong seasonality in booking demand
 
 ---
 
-##  Future Enhancements
-- Build predictive models (Logistic Regression) for cancellation prediction  
-- Implement dynamic pricing algorithms  
-- Develop an interactive dashboard using Power BI or Tableau  
-- Deploy model for real-time booking predictions  
+## 📈 Business Insights
+
+* Implement stricter policies for long lead-time bookings
+* Encourage deposits to reduce cancellations
+* Apply dynamic pricing during peak seasons
+* Use customer segmentation for targeted marketing
+
+---
+
+##  Conclusion
+
+This project demonstrates how data analysis can help the hospitality industry make data-driven decisions to reduce revenue loss and improve customer retention.
+
+---
+
+## 📌 Future Scope
+
+* Build machine learning model for cancellation prediction
+* Develop interactive dashboard (Power BI/Tableau)
+* Implement dynamic pricing model
 
 ---
 
 ## 👩‍💻 Author
-**Niveda Sudeep**   
-📧 nivedasudeep7@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/niveda-sudeep-17868531  
 
+**Niveda Sudeep**
 
-
-
-
+---
