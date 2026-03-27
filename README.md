@@ -1,4 +1,4 @@
-# 🏨 Travel, Tourism & Hospitality Analysis
+#  Travel, Tourism & Hospitality Analysis
 
 ### Customer Retention & Dynamic Pricing Analysis
 
