@@ -1,114 +1,124 @@
-# 🏨 Travel, Tourism & Hospitality - Customer Retention and Dynamic Pricing Analysis
+# 🏨 Travel, Tourism & Hospitality Analytics
 
-## 📌 Project Overview
-
-The travel and hospitality industry faces significant revenue loss due to high booking cancellations and inefficient pricing strategies.
-This project analyzes hotel booking data to identify key factors influencing cancellations and to understand seasonal demand patterns.
-The goal is to provide data-driven insights that help improve customer retention and optimize pricing decisions.
+## Customer Retention and Dynamic Pricing Analysis
 
 ---
 
-## 🎯 Business Objective
+## 📌 Executive Summary
+
+In the highly competitive travel and hospitality industry, businesses face revenue loss due to unpredictable booking cancellations and inefficient pricing strategies.
+
+This project analyzes historical hotel booking data to identify key factors driving cancellations and uncover seasonal demand patterns. The insights help improve customer retention and support dynamic pricing decisions.
+
+---
+
+## 🎯 Business Objectives
 
 * Reduce booking cancellation rates
-* Optimize pricing strategies using demand trends
-* Improve revenue through data-driven decisions
+* Optimize pricing strategies based on demand
+* Improve Revenue Per Available Room (RevPAR)
+* Identify high-risk customer segments
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 📊 Dataset
 
-* **Python** (Pandas, NumPy)
-* **Data Visualization** (Matplotlib, Seaborn)
-* **Machine Learning** (Scikit-learn)
-* **Dashboarding** (Power BI)
+* Source: Hotel Booking Demand Dataset
+* Features include:
 
----
-
-## 🔄 Project Workflow
-
-### 🔹 Week 1: Data Cleaning & Feature Engineering
-
-* Handled missing values in key columns (agent, company, children, country)
-* Removed outliers in pricing (ADR)
-* Created new features:
-
-  * Total Guests
-  * Total Nights
-  * Is Family
+  * Lead time
+  * Average Daily Rate (ADR)
+  * Customer type
+  * Hotel type
+  * Booking dates
+  * Cancellation status
 
 ---
 
-### 🔹 Week 2: Exploratory Data Analysis (EDA)
+## 🛠 Methodologies Used
+
+### 🔹 Data Processing & Cleaning (Week 1)
+
+* Handled missing values (agent, company, etc.)
+* Removed outliers in ADR
+* Created new features (total guests, total nights)
+
+---
+
+### 🔹 Exploratory Data Analysis (Week 2)
 
 * Analyzed cancellation patterns
-* Studied relationship between:
-
-  * Lead time and cancellations
-  * Pricing (ADR) and demand
-  * Deposit type and cancellation
+* Studied relationship between lead time and cancellations
 * Identified seasonal booking trends
+* Visualized ADR distribution and demand patterns
 
 ---
 
-### 🔹 Week 3: Predictive Modeling
+### 🔹 Predictive Modeling (Week 3)
 
-* Built a **Logistic Regression model** to predict booking cancellations
-* Split data into training and testing sets
-* Evaluated model using:
+* Model: Logistic Regression
+* Performed train-test split
+* Evaluated using:
 
   * Accuracy
   * Precision
   * Recall
+  * ROC-AUC Curve
 
 ---
 
-### 🔹 Week 4: Dashboard & Visualization
+### 🔹 Dashboard & Visualization (Week 4)
 
-* Developed an interactive dashboard using Power BI
-* Visualized:
+* Built interactive Power BI dashboard
+* Key visualizations:
 
-  * Cancellation distribution
-  * Lead time impact
-  * Pricing trends (ADR)
-  * Monthly booking demand
-  * Cancellation by hotel type
-
----
-
-## 📊 Key Insights
-
-* 📌 Higher lead time increases cancellation probability
-* 📌 City hotels have higher cancellation rates than resort hotels
-* 📌 Bookings without deposits are more likely to be canceled
-* 📌 Peak seasons show higher demand and pricing
+  * Booking Cancellation Distribution
+  * Lead Time vs Cancellation
+  * Cancellation by Hotel Type
+  * Average Daily Rate Trend
+  * Monthly Booking Demand
 
 ---
 
-## 💡 Business Recommendations
+## 📈 Key Insights
 
-* ✔ Implement stricter deposit policies to reduce cancellations
-* ✔ Apply dynamic pricing during peak demand periods
-* ✔ Offer targeted discounts for high-risk customers
-* ✔ Focus marketing strategies on low-cancellation customer segments
-
----
-
-## 📸 Dashboard Preview
-
-
-<img width="1362" height="770" alt="PowerBI_Dashboard png" src="https://github.com/user-attachments/assets/aed4d7e4-fe82-448c-a0f9-4d822bf09864" />
-
+* Higher lead time increases cancellation probability
+* City hotels experience more cancellations than resort hotels
+* Peak booking demand occurs during mid-year (July–August)
+* ADR rises during high-demand seasons and drops during low demand
 
 ---
 
-## ✅ Conclusion
+## 💡 Strategic Recommendations
 
-This project demonstrates how data analytics can be used to identify customer behavior patterns, reduce cancellations, and improve pricing strategies in the hospitality industry.
+* Implement dynamic pricing during peak seasons
+* Offer discounts or incentives for early bookings
+* Target high-risk customers with retention campaigns
+* Optimize pricing strategies based on seasonal demand trends
+
+---
+
+## 📂 Project Structure
+
+```
+Week 1/ → Data Cleaning & Feature Engineering  
+Week 2/ → Exploratory Data Analysis  
+Week 3/ → Predictive Modeling  
+Week 4/ → Power BI Dashboard  
+README.md  
+```
+
+---
+
+## 🚀 Conclusion
+
+This project provides a data-driven foundation for improving pricing strategies and reducing cancellations in the hospitality industry. The combination of EDA, predictive modeling, and dashboard visualization enables better business decision-making.
 
 ---
 
 ## 👩‍💻 Author
 
 **Niveda Sudeep**
-Aspiring Data Analyst
+Data Analyst
+
+---
