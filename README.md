@@ -119,6 +119,6 @@ This project provides a data-driven foundation for improving pricing strategies 
 ## 👩‍💻 Author
 
 **Niveda Sudeep**
-Data Analyst
+
 
 ---
